@@ -46,3 +46,13 @@
   padding: 1rem 0;
   text-align: center;
 }
+
+.custom-link {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
+.custom-link:hover {
+  color: inherit; /* Optional: Add a hover color */
+  text-decoration: none; /* Ensure underline is removed on hover */
+}
