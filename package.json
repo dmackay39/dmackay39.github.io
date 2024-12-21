@@ -1,5 +1,6 @@
 {
   "name": "dmackay39.github.io",
+  "base" : "https://dmackay39.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
