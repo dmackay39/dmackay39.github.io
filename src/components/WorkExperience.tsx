@@ -4,7 +4,7 @@ function WorkExperience() {
     return (
         <ListGroup>
             <ListGroup.Item>
-                <div className="fw-bold">Software Engineer - Barclays  <Badge bg="dark">Currrent</Badge></div>
+                <div className="fw-bold">Software Engineer - Barclays  <Badge bg="dark">Current</Badge></div>
             </ListGroup.Item>
             <ListGroup.Item>
                 <div className="fw-bold">Leadership Development Programme - St Andrews Free Church</div>
