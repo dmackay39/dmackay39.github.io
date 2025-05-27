@@ -7,6 +7,14 @@ function Courses() {
         <CardGroup>
         <Card>
         <Card.Body>
+          <Card.Title>AWS</Card.Title>
+          <Card.Text>
+            Architecting on AWS
+          </Card.Text>
+        </Card.Body>
+        </Card>
+        <Card>
+        <Card.Body>
           <Card.Title>Docker Foundations</Card.Title>
           <Card.Text>
             Docker Inc.
