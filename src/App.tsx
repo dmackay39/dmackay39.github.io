@@ -18,7 +18,9 @@ function App(props : AppProps) {
           <Header />
         </Row>
         <Row className='flex-grow-1'>
+          <Container className="pt-5">
           {children}
+          </Container>
         </Row>
         <Row>
           <Footer />

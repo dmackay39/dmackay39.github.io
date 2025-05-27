@@ -1,45 +1,31 @@
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+const courses = [
+  { title: 'AWS', text: 'Architecting on AWS' },
+  { title: 'Docker Foundations', text: 'Docker Inc.' },
+  { title: 'Vector Databases', text: 'Weaviate' },
+  { title: 'PluralSight and Codecademy Courses', text: 'AWS, Machine learning, SQL' },
+];
 
 function Courses() {
-    return (
-        <>
-        <CardGroup>
-        <Card>
-        <Card.Body>
-          <Card.Title>AWS</Card.Title>
-          <Card.Text>
-            Architecting on AWS
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        <Card>
-        <Card.Body>
-          <Card.Title>Docker Foundations</Card.Title>
-          <Card.Text>
-            Docker Inc.
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        <Card>
-        <Card.Body>
-          <Card.Title>Vector Databases</Card.Title>
-          <Card.Text>
-            Weaviate
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        <Card>
-        <Card.Body>
-          <Card.Title>PluralSight and Codecademy Courses</Card.Title>
-          <Card.Text>
-            AWS, Machine learning, SQL
-          </Card.Text>
-        </Card.Body>
-        </Card>
-        </CardGroup>
-        </>
-    )
+  return (
+    <div className="my-4">
+      <Row xs={1} md={2} className="g-4">
+        {courses.map((course, idx) => (
+          <Col key={idx}>
+            <Card className="h-100 shadow-sm">
+              <Card.Body>
+                <Card.Title>{course.title}</Card.Title>
+                <Card.Text>{course.text}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
+  );
 }
 
 export default Courses;
