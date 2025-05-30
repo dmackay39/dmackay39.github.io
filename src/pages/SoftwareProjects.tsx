@@ -4,7 +4,8 @@ import { BsRobot, BsCupHot, BsCodeSlash, BsBoxSeam, BsLightning } from "react-ic
 // Optionally add a description field to each project for more detail
 const projects = {
   "AI & ML": [
-    { title: "Gen AI Starter", url: "https://github.com/dmackay39/gen-ai-starter", icon: <BsRobot /> },
+    { title: "CrewAI-FastAPI-React CV reviewer", url: "https://github.com/dmackay39/cv-reviewer", icon: <BsRobot /> },
+    { title: "Gen AI Starter with SpringAI", url: "https://github.com/dmackay39/gen-ai-starter", icon: <BsRobot /> },
     { title: "Natural Language Database Querying", url: "https://github.com/dmackay39/gen-ai-sql", icon: <BsRobot /> },
     { title: "Classification of Forest Cover", url: "https://github.com/dmackay39/Forest-Cover-Classification", icon: <BsRobot /> },
     { title: "Classification of Heart Attacks", url: "https://github.com/dmackay39/Heart-Attack-Classification", icon: <BsRobot /> },
@@ -19,12 +20,14 @@ const projects = {
     { title: "Bank API Capstone Project", url: "https://github.com/dmackay39/BankCapstone", icon: <BsCupHot /> },
   ],
   Python: [
+    { title: "CrewAI-FastAPI-React CV reviewer", url: "https://github.com/dmackay39/cv-reviewer", icon: <BsCodeSlash /> },
     { title: "Natural Language Database Querying", url: "https://github.com/dmackay39/gen-ai-sql", icon: <BsCodeSlash /> },
     { title: "Classification of Forest Cover", url: "https://github.com/dmackay39/Forest-Cover-Classification", icon: <BsCodeSlash /> },
     { title: "Classification of Heart Attacks", url: "https://github.com/dmackay39/Heart-Attack-Classification", icon: <BsCodeSlash /> },
     { title: "Linear Regression with House Prices", url: "https://github.com/dmackay39/House-Price-Linear-Regression", icon: <BsCodeSlash /> },
   ],
   React: [
+    { title: "CrewAI-FastAPI-React CV reviewer", url: "https://github.com/dmackay39/cv-reviewer", icon: <BsLightning /> },
     { title: "Gen AI Starter", url: "https://github.com/dmackay39/gen-ai-starter", icon: <BsLightning /> },
     { title: "Simple full-stack Library App", url: "https://github.com/dmackay39/simple-library", icon: <BsLightning /> },
   ],
